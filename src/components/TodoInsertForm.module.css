@@ -1,0 +1,36 @@
+.form {
+  margin-top: calc(0px - 1.6875rem);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form input {
+  background: var(--grey-500);
+  color: var(--grey-300);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--grey-700);
+  height: 3.375rem;
+  flex: 1;
+
+  transition: border 0.2s;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: var(--purple-700);
+}
+
+.form button {
+  height: 54px;
+  background: var(--blue-700);
+  padding: 1rem;
+  color: var(--grey-100);
+  border-radius: 8px;
+
+  transition: background 0.1s;
+}
+
+.form button:hover {
+  background: var(--blue-500)
+}
